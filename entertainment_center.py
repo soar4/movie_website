@@ -19,7 +19,7 @@ class Entertainment_center(object):
 
     '''
         input: movie list or movie
-        output: object self
+        return: object self
     '''
     def __add__(self, movie):
         if isinstance(movie, list):
